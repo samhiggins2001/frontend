@@ -3,6 +3,7 @@ var HackOre = require('sara'),
 
 module.exports = new HackOre.View('Who', {
         prerender: false
+        , template: HackOre.template('who', '../public/who.html')
         , render: function () {
             document.querySelector('#viz-style').href = '/who.css'
             document.querySelector('main').innerHTML = ''
