@@ -6,7 +6,68 @@ path {
 svg {
   zoom: .4;
   position: absolute;
-  top: -200px;
-  left: 50%;
-  margin-left: -850px;
+  top: 100px;
+  left: 30%;
+
+}
+
+path {
+	stroke: #fff;
+	/*stroke-width: 1.5;
+	 */
+	cursor: pointer;
+}
+
+text {
+	font: 11px sans-serif;
+	cursor: pointer;
+}
+h1 {
+	text-align: center;
+	margin: .5em 0;
+}
+#annotation {
+	border: 3px solid rgb(53, 135, 212);
+	margin-top: 0px;
+	padding-top: 0px;
+	border-radius: 4px;
+	position: absolute;
+	min-height: 4.8em;
+	width: 280px;
+	top: 50px;
+	left: 10px;
+	background-color: rgb(53, 135, 212);
+	color: white;
+}
+#col2 {
+	border: 3px solid rgb(53, 135, 212);
+	margin-top: 0px;
+	padding-top: 0px;
+	border-radius: 4px;
+	position: absolute;
+	min-height: 4.8em;
+	width: 280px;
+	top: 50px;
+	left: 600px;
+	color: white;
+	background-color: rgb(53, 135, 212);
+}
+p {
+	-webkit-margin-after: 0em;
+	-webkit-margin-before: 0em;
+	margin-bottom: 0em;
+	margin-top: 0em;
+}
+#current {
+	font-weight: bold;
+}
+#left {
+	position: absolute;
+	top: 30px;
+	left: 120px;
+}
+#right {
+	position: absolute;
+	top: 30px;
+	left: 660px;
 }

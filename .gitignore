@@ -1,2 +1,4 @@
 /node_modules
+/node_modules/d3
+/node_modules/sara
 .DS_Store
